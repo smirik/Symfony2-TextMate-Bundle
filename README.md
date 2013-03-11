@@ -4,7 +4,7 @@ TextMate Bundle for Symfony2
 This bundle provides basic snippets for symfony2 in TextMate and Sublime Text. Also it contains [php-cs-fixer](https://github.com/fabpot/PHP-CS-Fixer) command. 
 
 Installation
-----------
+------------
 
 * Create a bundle directory in your home if not exists & cd there.
 
@@ -24,7 +24,9 @@ cd ~/Library/Application Support/Avian/Bundles/
 
 * Clone a copy from the github repository:
 
-        git clone git@github.com:smirik/Symfony2-TextMate-Bundle.git Symfony.tmbundle
+``` bash
+git clone git@github.com:smirik/Symfony2-TextMate-Bundle.git Symfony.tmbundle
+```
 
 * Reload TextMate or Bundles in TextMate.
 
