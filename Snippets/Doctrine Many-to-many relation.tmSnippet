@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+  * @ORM\ManyToMany(targetEntity="$2", inversedBy="$3")
+  * @ORM\JoinTable(name="$4")
+  */
+protected \$$1;
+
+$0</string>
+	<key>name</key>
+	<string>Doctrine Many-to-many relation</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>docm2m</string>
+	<key>uuid</key>
+	<string>B055F7CC-4B68-4089-AE7D-AC5E19779CDB</string>
+</dict>
+</plist>

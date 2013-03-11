@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+$file = $_ENV['TM_FILEPATH'];
+
+$res = 1;
+$tmp = system("php-cs-fixer fix --quiet --config=sf21 ".$file, $res);
+echo file_get_contents($file);</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>~@l</string>
+	<key>name</key>
+	<string>PHP CS fixer</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>uuid</key>
+	<string>0F10BFF2-F361-4FA1-A0BB-C5515443C8EB</string>
+</dict>
+</plist>

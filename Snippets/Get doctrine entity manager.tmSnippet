@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$em = \$this-&gt;getDoctrine()-&gt;getEntityManager();</string>
+	<key>name</key>
+	<string>Get doctrine entity manager</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>em</string>
+	<key>uuid</key>
+	<string>E7962A0C-E197-499A-8BCB-62DB1BED5E92</string>
+</dict>
+</plist>

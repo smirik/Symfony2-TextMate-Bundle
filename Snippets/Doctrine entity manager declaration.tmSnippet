@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$1.manager:
+  class:     %$1.manager.class%
+  arguments: ["@doctrine.orm.entity_manager", $2\\$3Bundle\Entity\\$4]
+
+$0
+</string>
+	<key>name</key>
+	<string>Doctrine entity manager declaration</string>
+	<key>scope</key>
+	<string>source.yaml </string>
+	<key>tabTrigger</key>
+	<string>emyml</string>
+	<key>uuid</key>
+	<string>5CDE652A-1F25-4102-B47F-22E275D39829</string>
+</dict>
+</plist>

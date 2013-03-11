@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+  * @ORM\OneToMany(targetEntity="$1", mappedBy="$2")
+  */
+protected \$$2;
+
+$0</string>
+	<key>name</key>
+	<string>Doctrine One-to-many relation</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>doco2m</string>
+	<key>uuid</key>
+	<string>5E563B93-CEB8-4B94-901E-DDBB4E853ED8</string>
+</dict>
+</plist>

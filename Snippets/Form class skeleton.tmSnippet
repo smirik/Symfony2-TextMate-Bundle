@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+
+namespace $1\\$2Bundle\\Form;
+
+use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\FormBuilder;
+
+class $3Type extends AbstractType
+{
+
+	public function buildForm(FormBuilder \$builder, array \$options)
+	{
+		\$builder-&gt;add('$0');
+	}
+
+	public function getDefaultOptions(array \$options)
+	{
+		return array(
+			'data_class' =&gt; '$1\\$2Bundle\Model\\$3',
+		);
+	}
+
+	public function getName()
+	{
+		return '$3';
+	}
+
+}
+</string>
+	<key>name</key>
+	<string>Form class skeleton</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>formexample</string>
+	<key>uuid</key>
+	<string>9FB79E80-6390-4B54-BA7D-E796B195F362</string>
+</dict>
+</plist>

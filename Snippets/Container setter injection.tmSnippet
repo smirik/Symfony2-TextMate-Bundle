@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>calls:
+    - [ setContainer, [ "@service_container" ]]</string>
+	<key>name</key>
+	<string>Container setter injection</string>
+	<key>scope</key>
+	<string>source.yaml - string</string>
+	<key>tabTrigger</key>
+	<string>container</string>
+	<key>uuid</key>
+	<string>8D6BC3AA-8A14-4EC5-8DF8-CA8AFB25F287</string>
+</dict>
+</plist>

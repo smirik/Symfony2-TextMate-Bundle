@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;behavior name="timestampable"/&gt;</string>
+	<key>name</key>
+	<string>Timestampable</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>&lt;timestamp</string>
+	<key>uuid</key>
+	<string>18C4ECC8-8228-464E-9508-127FBDF78A4B</string>
+</dict>
+</plist>

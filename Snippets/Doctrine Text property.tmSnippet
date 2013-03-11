@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+  * @var string \$$1
+  * 
+  * @ORM\Column(name="${1}", type="text")
+  */
+protected \$$1;
+
+$0</string>
+	<key>name</key>
+	<string>Doctrine Text property</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>doctext</string>
+	<key>uuid</key>
+	<string>A107A7C7-5F7C-4BA2-AE04-82C3C3BF27CF</string>
+</dict>
+</plist>

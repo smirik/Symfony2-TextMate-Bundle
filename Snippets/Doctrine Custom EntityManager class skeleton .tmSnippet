@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+namespace $1\\$2Bundle\\Entity;
+
+use Doctrine\ORM\EntityManager;
+use $1\\$2Bundle\Entity\\$3;
+
+class $3Manager
+{
+  
+	protected \$em;
+	protected \$class;
+	protected \$repository;
+
+	public function __construct(EntityManager \$em, \$class)
+	{
+		\$this-&gt;em         = \$em;
+		\$this-&gt;class      = \$em-&gt;getClassMetadata(\$class)-&gt;name;
+		\$this-&gt;repository = \$em-&gt;getRepository(\$class);
+	}
+
+	$0  
+}
+</string>
+	<key>name</key>
+	<string>Doctrine Custom EntityManager class skeleton </string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>emdef</string>
+	<key>uuid</key>
+	<string>F0CC398E-620C-4DBE-9869-95CC6E1E598F</string>
+</dict>
+</plist>

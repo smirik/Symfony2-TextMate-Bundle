@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+text = ENV['TM_SELECTED_TEXT']
+class String
+  def firstLetterCamelize
+    a = self.clone
+    a[0,1] = a[0,1].upcase
+    a
+  end
+end
+
+lines = text.split("\n")
+prop_definition = ['private', 'public', 'protected', 'final']
+
+puts "\n"
+lines.each do |line|
+  words = line.split(" ").map{|elem| elem.strip }
+  if prop_definition.include?(words[0])
+    name = words[1].gsub(';', '').gsub('$', '')
+    setter = '	public function set'+name.firstLetterCamelize+'($'+name+")\n	{\n		"+'$this-&gt;'+name+' = $'+name+";\n	}\n\n"
+    getter = '	public function get'+name.firstLetterCamelize+"()\n	{\n		"+'return $this-&gt;'+name+";\n	}\n\n"
+    puts setter
+    puts getter
+  end
+end
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@&lt;</string>
+	<key>name</key>
+	<string>Add getters &amp; setter</string>
+	<key>output</key>
+	<string>afterSelectedText</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>uuid</key>
+	<string>4B646CC7-E728-47D6-B1B9-EF7A8968AD5F</string>
+</dict>
+</plist>

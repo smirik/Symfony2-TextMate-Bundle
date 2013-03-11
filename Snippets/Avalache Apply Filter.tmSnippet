@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>|apply_filter('')</string>
+	<key>name</key>
+	<string>Avalache Apply Filter</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>af</string>
+	<key>uuid</key>
+	<string>D642FFBA-2D21-4B81-B82B-5043E391AAA8</string>
+</dict>
+</plist>

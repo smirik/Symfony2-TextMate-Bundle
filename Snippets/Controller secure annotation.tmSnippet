@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@Secure(roles="${1:ROLE_USER}")$0</string>
+	<key>name</key>
+	<string>Controller secure annotation</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>@secure</string>
+	<key>uuid</key>
+	<string>A6155BCB-D1AF-47F0-A71F-F04B16C5FD26</string>
+</dict>
+</plist>

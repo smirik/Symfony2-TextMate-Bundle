@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:var2} = \$this-&gt;get('${2:var}');$0</string>
+	<key>name</key>
+	<string>Get service from container</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>gets</string>
+	<key>uuid</key>
+	<string>507349CC-7322-4C79-B6E4-E7C5A6D30110</string>
+</dict>
+</plist>

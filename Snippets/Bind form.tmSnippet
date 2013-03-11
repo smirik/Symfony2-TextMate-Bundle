@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$request = $this-&gt;getRequest();
+if ('POST' === $request-&gt;getMethod())
+{
+    $form-&gt;bindRequest($request);
+    if ($form-&gt;isValid())
+    {
+        $0
+    }
+}</string>
+	<key>name</key>
+	<string>Bind form</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>bindform</string>
+	<key>uuid</key>
+	<string>C14B10CC-1DBE-4452-8A8C-F21A80E3D6F5</string>
+</dict>
+</plist>

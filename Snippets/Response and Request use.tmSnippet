@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
+</string>
+	<key>name</key>
+	<string>Response and Request use</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>userequest</string>
+	<key>uuid</key>
+	<string>DCF34864-E2D2-48C2-BA8F-4468F7FBF9DF</string>
+</dict>
+</plist>

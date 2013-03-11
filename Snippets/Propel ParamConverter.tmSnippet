@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@ParamConverter("$1", options={ "mapping"={ "$2" : "id" }})
+$0</string>
+	<key>name</key>
+	<string>Propel ParamConverter</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>@param</string>
+	<key>uuid</key>
+	<string>D42C078D-1838-4681-8FDA-8AC3967C1BC8</string>
+</dict>
+</plist>

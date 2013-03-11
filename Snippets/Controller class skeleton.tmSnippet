@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+
+namespace $1\\$2Bundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+
+/**
+ * $3 controller.
+ *
+ * @Route("$4")
+ */
+class $3Controller extends Controller
+{
+
+	/**
+	 * @Route("/$5", name="$6")
+	 * @Template()
+	 */
+	public function indexAction()
+	{
+		$7
+		return array();
+	}
+
+}
+
+</string>
+	<key>name</key>
+	<string>Controller class skeleton</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>controllerexample</string>
+	<key>uuid</key>
+	<string>F25012F7-60EA-4C80-9894-E81AADA4D4A2</string>
+</dict>
+</plist>

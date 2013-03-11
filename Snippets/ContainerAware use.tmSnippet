@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>use Symfony\Component\DependencyInjection\ContainerAware;</string>
+	<key>name</key>
+	<string>ContainerAware use</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>usecontainer</string>
+	<key>uuid</key>
+	<string>E64D30AC-7E81-4A22-BFF1-0CBC1554CBA0</string>
+</dict>
+</plist>

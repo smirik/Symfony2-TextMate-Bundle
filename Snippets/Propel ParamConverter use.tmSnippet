@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;</string>
+	<key>name</key>
+	<string>Propel ParamConverter use</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>useconverter</string>
+	<key>uuid</key>
+	<string>1010C17E-41D9-48D9-8834-F600AAE0ECEB</string>
+</dict>
+</plist>
