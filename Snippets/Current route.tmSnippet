@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$route = $this-&gt;getRequest()-&gt;get('_route');</string>
+	<string>\$route = \$this-&gt;getRequest()-&gt;get('_route');</string>
 	<key>name</key>
 	<string>Current route</string>
 	<key>scope</key>

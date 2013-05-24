@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;table name="$1" phpName="$0" idMethod="native"&gt;
+	<string>&lt;table name="$1" phpName="$2" idMethod="native"&gt;$0
 &lt;/table&gt;
 </string>
 	<key>name</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;column name="$1" type="VARCHAR" size="$2" required="$0" /&gt;</string>
+	<string>&lt;column name="$1" type="VARCHAR" size="$2" required="$3" /&gt;$0</string>
 	<key>name</key>
 	<string>Varchar</string>
 	<key>scope</key>

@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$request = $this-&gt;getRequest();
-if ('POST' === $request-&gt;getMethod())
+	<string>\$request = \$this-&gt;getRequest();
+if ('POST' === \$request-&gt;getMethod())
 {
-    $form-&gt;bindRequest($request);
-    if ($form-&gt;isValid())
+    \$form-&gt;bindRequest(\$request);
+    if (\$form-&gt;isValid())
     {
         $0
     }

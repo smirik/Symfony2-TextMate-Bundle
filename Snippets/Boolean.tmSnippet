@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;column name="$0" type="BOOLEAN" defaultValue="0" required="false" /&gt;</string>
+	<string>&lt;column name="$1" type="BOOLEAN" defaultValue="0" required="false" /&gt;$0</string>
 	<key>name</key>
 	<string>Boolean</string>
 	<key>scope</key>

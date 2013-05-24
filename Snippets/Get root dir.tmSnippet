@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$this-&gt;get('kernel')-&gt;getRootDir()</string>
+	<string>\$this-&gt;get('kernel')-&gt;getRootDir()</string>
 	<key>name</key>
 	<string>Get root dir</string>
 	<key>scope</key>

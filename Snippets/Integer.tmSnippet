@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;column name="$0" type="INTEGER" required="false"/&gt;
+	<string>&lt;column name="$1" type="INTEGER" required="false"/&gt;$0
 </string>
 	<key>name</key>
 	<string>Integer</string>
