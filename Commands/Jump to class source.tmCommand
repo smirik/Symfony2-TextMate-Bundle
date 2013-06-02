@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+require "#{ENV['TM_SUPPORT_PATH']}/lib/textmate.rb"
+
+result = `php "#{ENV['TM_BUNDLE_SUPPORT']}/lib/class_source.php"`
+
+if result.empty?
+	puts "Class '#{ ENV['TM_CURRENT_WORD'] }' source file not found"
+else 
+	if File.exists?(result)
+		TextMate.go_to :file =&gt; result
+	else
+		puts result
+	end
+end</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@D</string>
+	<key>name</key>
+	<string>Jump to class source</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>support.other.namespace, entity.other.inherited-class.php, support.class.php</string>
+	<key>uuid</key>
+	<string>EC037B28-7A14-4E5D-968A-33F2A7E575A6</string>
+</dict>
+</plist>
