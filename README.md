@@ -23,8 +23,8 @@ cd ~/Library/Application\ Support/TextMate/Bundles
 **TextMate2:**
 
 ``` bash
-mkdir -p ~/Library/Application\ Support/Avian/Bundles/
-cd ~/Library/Application\ Support/Avian/Bundles/
+mkdir -p ~/Library/Application\ Support/TextMate/Managed/Bundles/
+cd ~/Library/Application\ Support/TextMate/Managed/Bundles/
 ```
 
 * Clone a copy from the github repository:
