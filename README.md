@@ -30,7 +30,7 @@ cd ~/Library/Application\ Support/TextMate/Managed/Bundles/
 * Clone a copy from the github repository:
 
 ``` bash
-git clone git@github.com:smirik/Symfony2-TextMate-Bundle.git Symfony.tmbundle
+git clone https://github.com/smirik/Symfony2-TextMate-Bundle.git Symfony.tmbundle
 ```
 
 * Reload TextMate or Bundles in TextMate.
